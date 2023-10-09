@@ -1,37 +1,22 @@
-﻿// 2.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
+﻿// 12313123.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
 //
 
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
-	int a[1000];
-	int n;
+	char a[] = "Hi";
+	char b[100];
+
+	printf("이름을 입력하십시오 : ");
+
+	scanf_s("%s", b , sizeof(b));
 	
-	printf("얼마나 칸을 정할것인지 입력하시오 : ");
-	scanf_s("%d", &n);
-	
+	strcat_s(a, b);  //a 에 b를 이어서 붙인다.
+	strcat_s(a, "!");  //a에 !를 붙인다.
 
-	printf("숫자를 입력하십시오 : ");
-	for (int i = 0; i < n; i = i + 1) {
-		scanf_s("%d", &a[i]);
-	}
-
-
-	int b = 0;
-	int c = 0;
-
-	for (int i = 0; i < a[i]; i = i + 1) {
-		if (a[i] % 2 == 0) {			
-			b = b + 1;
-		}
-
-		else {
-			c = c + 1;
-		}
-	}
-
-	printf("짝수는 %d개 \n홀수는 %d개", b, c);
+	printf("%s", a);
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴

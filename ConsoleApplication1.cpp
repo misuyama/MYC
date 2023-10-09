@@ -5,24 +5,19 @@
 
 int main()
 {
-    char a[] = "Hello, World!";
+    int a;
+    
+    printf("숫자를 입력하십시오 : ");
+    scanf_s("%d", &a);
 
-    printf("%s\n", a);
-    printf("%d\n", sizeof(a));
+    int pow = 1;
+    for (int i = 1; i <= a; i = i + 1) {
+        pow = pow * 2;
+    }
 
-    printf("%c\n", a[5]);
-
-    //문자열 입력
-    char name[10];
-
-    printf("이름 입력 :");
-
-    scanf_s("%s", name, sizeof(name));
-
-    printf("%s\n", name);
-
-    char str[5] = "abcde";
+    printf("%d", pow);
 }
+
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
 // 프로그램 디버그: <F5> 키 또는 [디버그] > [디버깅 시작] 메뉴
