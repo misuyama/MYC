@@ -1,0 +1,8 @@
+﻿  6 33.cpp
+C:\Users\konyang\Desktop\EC\ConsoleApplication5\6 33\6 33.cpp(14,13): warning C4477: 'scanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\konyang\Desktop\EC\ConsoleApplication5\6 33\6 33.cpp(14,13): message : 이 인수는 버퍼 크기로 사용됩니다.
+C:\Users\konyang\Desktop\EC\ConsoleApplication5\6 33\6 33.cpp(18,13): warning C4477: 'scanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\konyang\Desktop\EC\ConsoleApplication5\6 33\6 33.cpp(18,13): message : 이 인수는 버퍼 크기로 사용됩니다.
+C:\Users\konyang\Desktop\EC\ConsoleApplication5\6 33\6 33.cpp(22,13): warning C4477: 'scanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\konyang\Desktop\EC\ConsoleApplication5\6 33\6 33.cpp(22,13): message : 이 인수는 버퍼 크기로 사용됩니다.
+  6 33.vcxproj -> C:\Users\konyang\Desktop\EC\ConsoleApplication5\x64\Debug\6 33.exe

@@ -28,8 +28,9 @@ int main()
 
     for (int* ptr = a; ptr < a + 10; ptr = ptr + 1) {
         printf("%d\n", *ptr);
-    }
 
+    }
+   
 
 }
 
