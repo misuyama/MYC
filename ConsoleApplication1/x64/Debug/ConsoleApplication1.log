@@ -1,0 +1,5 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\konyang\Desktop\asd\hamsu\ConsoleApplication1\ConsoleApplication1.cpp(7,2): error C2562: 'fact': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\konyang\Desktop\asd\hamsu\ConsoleApplication1\ConsoleApplication1.cpp(3,6): message : 'fact' 선언을 참조하십시오.
+C:\Users\konyang\Desktop\asd\hamsu\ConsoleApplication1\ConsoleApplication1.cpp(11,8): error C2440: '초기화 중': 'void'에서 'int'(으)로 변환할 수 없습니다.
+C:\Users\konyang\Desktop\asd\hamsu\ConsoleApplication1\ConsoleApplication1.cpp(11,8): message : void 형식의 식을 다른 형식으로 변환할 수 없습니다.
