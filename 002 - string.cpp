@@ -18,6 +18,11 @@ int main()
 	cout << greeting << endl;
 	cout << name << "은 총 " << name.length() << "글자 입니다.";
 	cout << name << "의 첫 글자는 " << name[0] << "입니다" << endl;
+
+	int a = 10;
+	int& b = a;
+	cout << b << endl;
+
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
