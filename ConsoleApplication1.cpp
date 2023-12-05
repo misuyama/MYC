@@ -1,47 +1,23 @@
-﻿// ConsoleApplication1.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
-//
-
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 
-void swap(int& a, int& b) {
-
-	cout << "swap(int, int)" << endl;
-	int tmp = a;
-	a = b;
-	b = tmp;
+// 두 정수를 더하는 함수
+int add(int a, int b) {
+    return a + b;
 }
 
-void swap(double& a, double& b) {
+int main() {
+    // 함수 포인터 선언
+    int (*sumFunctionPointer)(int, int);
 
-	cout << "swap(int, int)" << endl;
-	int tmp = a;
-	a = b;
-	b = tmp;
-}
+    // 함수 포인터에 함수 할당
+    sumFunctionPointer = add;
 
-void swap(char& a, char& b) {
+    // 함수 포인터를 사용하여 함수 호출
+    int result = sumFunctionPointer(3, 4);
 
-	cout << "swap(char, char)" << endl;
-	int tmp = a;
-	a = b;
-	b = tmp;
-}
+    // 결과 출력
+    cout << "두 정수의 합: " << result << endl;
 
-
-
-int main()
-{
-	int a = 10, b = 20;
-	double da = 1.23, db = 3.56;
-	char ca = 'a', cb = 'b';
-
-	swap(a, b);
-	swap(da, db);
-	swap(ca, cb);
-
-	cout << a << " " << b << endl;
-	cout << da << " " << db << endl;
-	cout << ca << " " << cb << endl;
-
+   
 }
